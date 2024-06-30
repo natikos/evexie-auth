@@ -16,6 +16,20 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "~types": [
+        "src/common/types"
+      ],
+      "~const": [
+        "src/common/constants"
+      ],
+      "~entities": [
+        "src/core/database/schema"
+      ],
+      "~config": [
+        "src/config/app-config.service"
+      ]
+    }
   }
 }
